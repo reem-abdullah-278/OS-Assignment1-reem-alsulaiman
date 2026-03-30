@@ -104,7 +104,6 @@ Document your development process as you work on the assignment. Add entries sho
 
 **Time spent**: 2 hours
 
----
 
 ## Summary
 
