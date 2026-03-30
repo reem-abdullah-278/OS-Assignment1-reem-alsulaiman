@@ -26,8 +26,7 @@ The most challenging part of this assignment was tracking the waiting time for e
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
-
+I overcame these challenges by breaking the problem into smaller steps. First, I made sure the Round-Robin scheduling worked without priority or waiting time. Then, I added the priority field and displayed it whenever a process entered the ready queue. For waiting time, I used System.currentTimeMillis() to track when processes start waiting and when they resume execution. I also tested each feature separately before combining them. Reading Java documentation, experimenting in VS Code, and debugging step by step helped me solve most of the problems. It took time, patience, and a lot of trial and error.
 ---
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
