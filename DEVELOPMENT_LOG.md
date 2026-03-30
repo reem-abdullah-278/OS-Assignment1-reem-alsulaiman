@@ -9,8 +9,6 @@ Document your development process as you work on the assignment. Add entries sho
 
 **Requirements**: Minimum 5 entries showing progression over time.
 
----
-
 ## Your Development Log:
 
 ### Entry 1 - [March 28, 2026, 3:00 PM]
