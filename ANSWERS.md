@@ -69,12 +69,13 @@ Why Round-Robin works well here: It allows all tasks to get CPU time fairly, kee
 ---
 
 ## Summary
+Key concepts I understood through these questions:
 
-**Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+Differences between threads and processes, and why threads are efficient for simulation.
+How Round-Robin scheduling manages fairness through re-queuing processes.
+Thread lifecycle states and their transitions during execution.
 
-**Concepts I need to study more:**
-1. 
-2. 
+Concepts I need to study more:
+
+Advanced synchronization techniques to prevent race conditions.
+Measuring and optimizing thread performance in real-world systems.
