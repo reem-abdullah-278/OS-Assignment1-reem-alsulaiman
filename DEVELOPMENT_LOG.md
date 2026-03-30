@@ -74,7 +74,6 @@ Document your development process as you work on the assignment. Add entries sho
 
 **Time spent**: 3 hours
 
----
 
 ### Entry 5 - [March 30, 2026, 5:00 PM]
 **What I did**: Full simulation testing
