@@ -9,7 +9,8 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
+
+During this assignment, I learned a lot about multithreading in Java. I understood how to create threads using the Runnable interface and how threads can run concurrently to simulate multiple processes. I also learned about thread states like New, Runnable, Running, and Terminated, and how methods like start(), sleep(), and join() affect these states. One thing that surprised me was how threads share memory but still have their own execution flow, which makes managing shared data tricky. I also realized that even with simple code, scheduling threads correctly can be challenging, especially when implementing the Round-Robin algorithm with priorities and context switching.
 
 ---
 
