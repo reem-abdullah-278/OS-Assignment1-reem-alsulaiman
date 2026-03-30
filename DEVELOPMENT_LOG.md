@@ -57,7 +57,6 @@ Document your development process as you work on the assignment. Add entries sho
 
 **Time spent**: 2 hours
 
----
 
 ### Entry 4 - [March 30, 2026, 1:00 PM]
 **What I did**: Implemented Feature 3: Waiting Time Tracking
