@@ -22,15 +22,17 @@ A process is an independent program that runs in its own memory space, while a t
 
 **Your Answer:**
 
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
+In Round-Robin scheduling, if a process does not finish within its time quantum, it is re-queued at the end of the ready queue to wait for its next turn. This ensures fairness, so no single process can monopolize the CPU. For example, in my simulation, P1 ran for 5000 ms but still had 1052 ms remaining. Therefore, P1 was added back to the ready queue to continue execution later. This behavior guarantees that all processes get a chance to run regularly without starvation
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+[Running P1 (Priority: 2) for 5000 ms
+P1 remaining time: 1052
+P1 (Priority: 2) added to queue]
 ```
 
 **Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
+P1 did not finish in its time quantum, so it was placed back in the ready queue. When its turn comes again, it continues executing until completion.
 
 ---
 
