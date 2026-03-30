@@ -18,8 +18,8 @@ During this assignment, I learned a lot about multithreading in Java. I understo
 
 **Your Answer:**
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
 
+The most challenging part of this assignment was tracking the waiting time for each process while also managing the Round-Robin scheduling correctly. Initially, I struggled with calculating the time each process spends waiting, because I had to carefully consider when a process yields and when it gets CPU again. Another difficult part was ensuring the priority field was displayed correctly and integrated with the ready queue without breaking the existing functionality. Overall, combining multithreading, timing, and queue management made the assignment much harder than I expected.
 ---
 
 ## Question 3: How did you overcome the challenges you faced?
