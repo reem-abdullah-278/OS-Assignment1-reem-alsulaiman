@@ -89,7 +89,6 @@ Document your development process as you work on the assignment. Add entries sho
 
 **Time spent**: 3.5 hours
 
----
 
 ### Entry 6 - [March 30, 2026, 8:00 PM]
 **What I did**: Added final comments and cleaned code formatting
