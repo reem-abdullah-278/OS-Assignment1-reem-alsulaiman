@@ -41,18 +41,15 @@ P1 did not finish in its time quantum, so it was placed back in the ready queue.
 **Question**: A thread can be in different states: **New**, **Runnable**, **Running**, **Waiting**, **Terminated**. Walk through these states for one process (P1) from your simulation.
 
 **Your Answer:**
+The lifecycle of a thread goes through several states:
 
-[Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
+New: P1 is in the New state when the thread object is created but before Thread.start() is called.
+Runnable: P1 becomes Runnable after Thread.start() is called, waiting for the CPU scheduler to allocate time.
+Running: P1 enters Running when the CPU executes its run() method during its time quantum.
+Waiting: P1 can be in Waiting when it finishes its current time quantum and waits in the ready queue for the next turn.
+Terminated: P1 reaches Terminated once it finishes execution and exits the run() method.
 
-1. **New**: [When is P1 in New state?]
-
-2. **Runnable**: [When does P1 become Runnable?]
-
-3. **Running**: [When is P1 Running?]
-
-4. **Waiting**: [When/why would P1 be Waiting?]
-
-5. **Terminated**: [When is P1 Terminated?]
+This simulation clearly demonstrates how threads transition between these states while executing Round-Robin scheduling.
 
 ---
 
