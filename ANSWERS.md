@@ -58,22 +58,13 @@ This simulation clearly demonstrates how threads transition between these states
 **Question**: Give **TWO** real-world examples where Round-Robin scheduling with threads would be useful. Explain why this scheduling algorithm works well for those scenarios.
 
 **Your Answer:**
+Example 1: Web server handling multiple client requests
+Description: A web server must respond to many users simultaneously. Each request can be handled by a thread.
+Why Round-Robin works well here: It ensures all client requests are treated fairly, and no request is starved. Threads make handling multiple requests efficient because they share memory for common resources like logs or caches.
 
-### Example 1: [Name of application/scenario]
-
-**Description**: 
-[Describe the real-world scenario or application]
-
-**Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
-
-### Example 2: [Name of application/scenario]
-
-**Description**: 
-[Describe the real-world scenario or application]
-
-**Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+Example 2: Multimedia player (video/audio streaming)
+Description: A media player processes audio, video, and UI interactions concurrently. Each task runs on a separate thread.
+Why Round-Robin works well here: It allows all tasks to get CPU time fairly, keeping video, audio, and interface responsive without lag. This predictable scheduling improves user experience and prevents any one task from blocking others.
 
 ---
 
