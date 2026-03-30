@@ -26,7 +26,6 @@ Document your development process as you work on the assignment. Add entries sho
 
 **Time spent**: 1 hour
 
----
 
 ### Entry 2 - [March 29, 2026, 2:00 PM]
 **What I did**: Implemented Feature 1: Process Priority
